@@ -1,4 +1,4 @@
-with open('../../data/2/2.txt', 'r') as f:
+with open('data/2/2.txt', 'r') as f:
     games = f.read()
 
 games = games.strip().rsplit('\n')
